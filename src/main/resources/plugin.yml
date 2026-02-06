@@ -1,0 +1,16 @@
+name: NexusBridge
+version: 0.4.0
+main: com.nexusmc.bridge.NexusBridgePlugin
+api-version: '1.20'
+authors: [NexusMC]
+description: Advanced Bedrock ↔ Java bridge helper with cross-plugin item/texture conversion.
+softdepend: [Geyser-Spigot, Geyser, floodgate, ItemsAdder, Oraxen]
+commands:
+  nexusmc:
+    description: Manage NexusBridge.
+    usage: /nexusmc <status|reload|exportpack|map>
+    permission: nexusmc.admin
+    aliases: [nbridge]
+permissions:
+  nexusmc.admin:
+    default: op

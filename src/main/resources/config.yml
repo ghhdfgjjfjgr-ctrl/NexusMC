@@ -1,0 +1,15 @@
+bridge:
+  compatibility-mode: true
+  auto-detect-hooks: true
+  show-mapping-stats-on-join: true
+
+mappings:
+  items:
+    minecraft:diamond_sword:
+      bedrock: minecraft:diamond_sword
+      texture: textures/items/diamond_sword.png
+      custom-model-data: 0
+    minecraft:netherite_sword:
+      bedrock: minecraft:netherite_sword
+      texture: textures/items/netherite_sword.png
+      custom-model-data: 0
